@@ -488,6 +488,20 @@ footer p{
     .post-header{
         margin-top: 9rem !important;
     }
+    .login{
+        margin: 0;
+        padding: 0;
+        width: 20%;
+        font-size: 8px;
+        color: var(--bg-color);
+        
+    }
+    .logo{
+        font-size: 0.9rem;
+    }
+    a{
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 570px){
@@ -506,7 +520,9 @@ footer p{
 
 @media (max-width: 396px){
     .home-title{
-        font-size: 2rem;
+        font-size: 1rem;
+        color: rgb(77, 228, 255);
+        padding-top: 37px;
     }
 
     .home-subtitle{
@@ -536,10 +552,14 @@ footer p{
     .header-img{
         height: 340px;
     }
+    .grad-bar{
+        width: auto;
+    }
 }
 
 /* Footer Media Query */
 @media (max-width: 991px){
+  
     h1 {
         font-size: 1.9rem;
     }
@@ -550,6 +570,9 @@ footer p{
 
     p {
         font-size: 0.8rem;
+    }
+    .logo span{
+        color: rgb(77, 228, 255);
     }
 
 
