@@ -74,7 +74,7 @@ body{
 }
 @media (max-width: 800px) {
     .contact-input{
-        width: 80vw;
+        width: auto;
     }
     .contact-right{
         display: none;
